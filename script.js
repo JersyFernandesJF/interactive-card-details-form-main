@@ -15,3 +15,25 @@ const inputPin = document.querySelector("#pin")
 const btnSubmit = document.querySelector("#btn-submit")
 const formWrapper = document.querySelector(".wrapper")
 const completeState= document.querySelector(".complete")
+
+function checkName(){}
+function checkNumber(){}
+function checkDate(){}
+function checkPin(){}
+
+form.addEventListener("input", (e)=>{
+  switch(e.target.id){
+    case "name":
+      checkName()
+      break
+    case "number":
+      checkNumber()
+      break
+    case "date":
+      checkDate()
+      break
+    case "pin":
+      checkPin()
+      break
+  }
+})
